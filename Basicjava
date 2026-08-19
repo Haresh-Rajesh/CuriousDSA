@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    
+	    char c = 'y';
+	    
+		System.out.println("Enter a Number");
+        Scanner ac =new Scanner(System.in);
+        int num = ac.nextInt();
+        
+        System.out.println("Enter a word");
+        Scanner bc =new Scanner(System.in);
+        String n = bc.nextLine();
+        
+        System.out.println(c);
+        
+        
+	}
+}
